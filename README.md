@@ -31,7 +31,7 @@
 
 This repository will have resources to get you prepared for the Hack Day event. 
 
-    On the day of the event, this repository will be updated to have the final starter code for the project that will be worked on. 
+```On the day of the event, this repository will be updated to have the final starter code.```
 
 If you have any questions, please ask on our [Slack](https://ie-sd.slack.com). We welcome everyone to our Slack, so don't be afraid to join! Have fun coding!
 
