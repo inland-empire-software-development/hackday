@@ -26,11 +26,11 @@
   Welcome to the official repository for the IESD Hack Day event.
 </p>
 
-## **We Welcome Contributions**
-We encourage everyone to contribute to this project as we believe it's a great way to get involved with the free and open source community (FOSS).
 
-## **Getting Help**
+## **Getting Started**
+
+Look under branches and find the appropriate month and year for the Hack Day you're participating in. Each branch has its own documentation for getting started. 
 
 If you have any questions, please ask on our [Slack](https://ie-sd.slack.com). We welcome everyone to our Slack, so don't be afraid to join! Have fun coding!
 
-**<a href="https://bit.ly/2C0umfQ">Join link</a>**
+**<a href="https://bit.ly/2C0umfQ">Join our Slack!</a>**
