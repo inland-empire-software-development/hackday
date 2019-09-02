@@ -23,14 +23,77 @@
 </p>
 
 <p align="center">
-  Welcome to the official repository for the IESD Hack Day event.
+  August 2019 IESD Hack Day event.
 </p>
 
 
 ## **Getting Started**
 
-Look under branches and find the appropriate month and year for the Hack Day you're participating in. Each branch has its own documentation for getting started. 
+This repository has the resources to get you prepared for the Hack Day event. 
+
+```Starter code has been update - 8/31/19 @ 1:55 PM.```
 
 If you have any questions, please ask on our [Slack](https://ie-sd.slack.com). We welcome everyone to our Slack, so don't be afraid to join! Have fun coding!
 
 **<a href="https://bit.ly/2C0umfQ">Join our Slack!</a>**
+
+## **Concepts to Review**
+Resources section below has links for these concepts. 
+- Canvas 
+- RequestAnimationFrame (JS Method)
+- Object Oriented JavaScript 
+- Prototypal Inheritance 
+- Sprites
+- Keyboard Events 
+
+## **Resources**
+List will be updated up until the day of the Hack Day event.
+- <a href="https://jlongster.com/Making-Sprite-based-Games-with-Canvas">Making Sprite Based Games with Canvas</a> (2013 article - still relevant)
+- <a href="http://blog.sklambert.com/html5-canvas-game-2d-collision-detection#d-collision-detection">HTML5 Canvas Game: 2D Collision Detection</a>
+- <a href="https://stackoverflow.com/questions/13916966/adding-collision-detection-to-images-drawn-on-canvas">Adding collision detection to images drawn on canvas on StackOverflow</a>
+- <a href="https://lowrey.me/modals-in-pure-es6-javascript/">Modals in Pure ES6 JavaScript</a>
+- <a href="https://css-tricks.com/snippets/javascript/javascript-keycodes/">KeyboardEvent Value (keyCodes, metaKey, etc) via CSS-Tricks</a>
+
+### **RequestAnimationFrame**
+
+The `window.requestAnimationFrame()` method tells the browser that you wish to perform an animation and requests that the browser call a specified function to update an animation before the next repaint. The method takes a callback as an argument to be invoked before the repaint. <a href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame">Read more about this here.</a>
+
+### **Object-Oriented JavaScript**
+Make sure you are comfortable with Object-Oriented JavaScript:
+
+- What is an object?
+- How is an object different from a primitive in JavaScript (e.g., can a primitive have methods?)
+- What are some ways to create or instantiate a new object?
+- How do you modify properties, or add/remove properties from an object?
+- What is a constructor function (or class)?
+- What is `this`? What does it refer to and how is it used in different contexts (i.e., in a constructor function, a method, etc.)?
+- How do you add a property or method to a constructor's prototype?
+- What is prototypal inheritance and how is it implemented?
+
+
+### How To Play
+Use the arrow/WASD keys to move the sprite around the field.
+Try to get your sprite to the top of the screen without coliding with any enemies.
+  If you collide with any enemies
+    Lose one life, and restart at the bottom row
+    If you lose all lives
+      Game Over
+  Once there, that space is taken up.
+Fill All top row spaces to beat the level.
+
+### Languages and Resources Used
+HTML
+CSS
+Vanilla Javascript
+
+### Future Plans
+- Add obstacles and power-ups, dependent on Level
+- Increasing Difficulty, dependent on level
+- 
+
+### Participants
+- James Stacy - Logical Design/UI
+- Rebecca Hom - Backend Logic
+- Tyrice Clark - UI Master
+- Spencer Trumbore - Backend Logic
+- Justin Teeter - Logical Design

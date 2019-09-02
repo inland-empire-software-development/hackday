@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+
+#game-info {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#life-counter-container, #score-counter-container, #character-profile-container   {
+    border: 1px solid black;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#score-counter-container {
+    border: 1px solid green;
+    flex: 1;
+}
+
+#character-profile-container {
+    border: 1px solid blue;
+    flex: 1;
+}
+
+.is-hidden {
+    display: none !important;
+  }
+  
+  .button-close {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 505px;
+    height: 606px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .modal {
+    padding: 20px 30px;
+    width: 90%;
+    max-height: calc(100% - 150px);
+    position: relative;
+    margin: 5% auto 0;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .game-over {
+      font-size: 48px;
+  }
+
+  #retry-btn {
+      background-color: #8888ff;
+      color: #fff;
+      max-width: 160px;
+      padding: 16px;
+  }
