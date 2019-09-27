@@ -53,7 +53,7 @@ This Hack Day challenge is language agnostic. We will not force you to use a spe
 ## **Challenge**
 For this Hack Day. The problem we will be attacking is the following...
  
-**Challenge:** We need an user interface that displays the information pulled from a user account on GitHub.com.
+**Challenge:** We need a user interface that displays the information pulled from a user account on GitHub.com.
 
 **Additional information:** We want the ability to pull data from a user account on GitHub and show that collected data in an easy to read format. We don't want to sift through data, instead we want to visually digest the information after the data has been processed for the end user. The end user should be able to see who's profile this is, extrapolate information such as favorite languages, most used languages, how often this person contributes to projects, etc.
 
