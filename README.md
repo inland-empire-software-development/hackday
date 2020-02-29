@@ -82,7 +82,7 @@ While designing and building this application, ask yourself the following questi
 - Create a leaderboard page that displays all members, sorted by their score, in descending order. 
 
 **Advanced (30pts each)**
-- Add pagination to the leaderbod page - each page should only show 10 members, sorted by their score, in descending order.
+- Add pagination to the leaderboard page - each page should only show 10 members, sorted by their score, in descending order.
 - Add sorting system to the leaderboard page. Possible sorting could include name, last active or most recent. 
 - Create a live activity feed that shows community activity - gifting of "points".
 
